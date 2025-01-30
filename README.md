@@ -1,0 +1,30 @@
+# NoCrypt's Tauri Template
+
+Template for making tauri app feels like native. 
+
+Features:
+- Svelte 5 + Typescript
+- TailwindCSS 3 + [shadcn-svelte](https://www.shadcn-svelte.com/) ready
+- Window Controls that feels native (windows only)
+- Delay startup to avoid white flashes
+- Optimized app size bundle by adjusting Cargo profile
+- Disable most of browser features ([tauri-plugin-prevent-default](https://github.com/ferreira-tb/tauri-plugin-prevent-default?tab=readme-ov-file#tauri-plugin-prevent-default))
+- Disable all context-menu except for inputs and editable elements (for easier copy and paste)
+- Disable tap highlight color
+
+## How to use?
+1. Clone the repo
+2. Rename the project name in `package.json`, `Cargo.toml`, `tauri.conf.json`, and `main.rs`
+3. Run `bun install` and `bun tauri dev`
+   
+
+## Why did I make this?
+Sometimes I just want to create a Tauri App rapidly, but the default template from `create-tauri-app` feels half-baked and gives too much indication that it is a "browser-based" app. This template essentially hides that, along with a few optimizations, and a touch of shadcn theme to make it ready for developing the app logic out of the box.
+
+## Quick Links
+- [Tauri Docs](https://tauri.app/start/)
+- [Tauri Rust Docs](https://docs.rs/tauri/2.2.5/tauri/)
+- [Svelte Docs](https://svelte.dev/docs/svelte/overview)
+- [SvelteKit Docs](https://svelte.dev/docs/kit/introduction)
+- [shadcn-svelte Docs](https://www.shadcn-svelte.com/)
+- [Tailwindcss Docs](https://v3.tailwindcss.com/)
