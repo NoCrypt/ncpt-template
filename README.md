@@ -2,6 +2,8 @@
 
 Template for making tauri app feels like native. 
 
+![image](https://github.com/user-attachments/assets/805b80ca-0546-4459-a1f5-ebfa43fec2bb)
+
 Features:
 - Svelte 5 + Typescript
 - TailwindCSS 3 + [shadcn-svelte](https://www.shadcn-svelte.com/) ready
