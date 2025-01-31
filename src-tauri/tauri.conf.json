@@ -19,7 +19,8 @@
         "visible": false,
         "minWidth": 270,
         "minHeight": 350,
-        "center": true
+        "center": true,
+        "backgroundColor": "#000"
       }
     ],
     "security": {
