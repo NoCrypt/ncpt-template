@@ -15,7 +15,11 @@ Features:
 - Disable tap highlight color
 
 ## How to use?
-1. Clone the repo
+1. Use `degit` to clone the repo
+```sh
+bun x degit https://github.com/NoCrypt/ncpt-template my-project
+cd my-project
+```
 2. Rename the project name in `package.json`, `Cargo.toml`, `tauri.conf.json`, and `main.rs`
 3. Run `bun install` and `bun tauri dev`
    
