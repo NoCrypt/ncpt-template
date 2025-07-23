@@ -5,8 +5,8 @@ Template for making tauri app feels like native.
 ![image](https://github.com/user-attachments/assets/805b80ca-0546-4459-a1f5-ebfa43fec2bb)
 
 Features:
-- Svelte 5 + Typescript
-- TailwindCSS 3 + [shadcn-svelte](https://www.shadcn-svelte.com/) ready
+- Svelte v5 + Typescript
+- TailwindCSS v4 + [shadcn-svelte](https://www.shadcn-svelte.com/) ready
 - Window Controls that feels native (windows only)
 - Delay startup to avoid white flashes
 - Optimized app size bundle by adjusting Cargo profile
@@ -29,8 +29,8 @@ Sometimes I just want to create a Tauri App rapidly, but the default template fr
 
 ## Quick Links
 - [Tauri Docs](https://tauri.app/start/)
-- [Tauri Rust Docs](https://docs.rs/tauri/2.2.5/tauri/)
+- [Tauri Rust Docs](https://docs.rs/tauri/latest/tauri/)
 - [Svelte Docs](https://svelte.dev/docs/svelte/overview)
 - [SvelteKit Docs](https://svelte.dev/docs/kit/introduction)
 - [shadcn-svelte Docs](https://www.shadcn-svelte.com/)
-- [Tailwindcss Docs](https://v3.tailwindcss.com/)
+- [Tailwindcss Docs](https://tailwindcss.com/)

@@ -22,7 +22,7 @@ tauri = { version = "2", features = [] }
 tauri-plugin-opener = "2"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
-tauri-plugin-prevent-default = { version = "1.0.2", features = ["unstable-native-windows"] }
+tauri-plugin-prevent-default = { version = "2.1", features = ["unstable-windows"] }
 
 [profile.dev]
 incremental = true # Compile your binary in smaller steps.
@@ -33,4 +33,5 @@ lto = true # Enables link-time-optimizations.
 opt-level = "s" # Prioritizes small binary size. Use `3` if you prefer speed.
 panic = "abort" # Higher performance by disabling panic handlers.
 strip = true # Ensures debug symbols are removed.
+
 

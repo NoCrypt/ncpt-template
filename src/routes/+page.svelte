@@ -13,7 +13,7 @@
 </script>
 
 
-<main class="w-full h-full flex flex-col justify-center items-center gap-5 bg-gradient-to-bl from-zinc-900 to-black">
+<main class="w-full h-full flex flex-col justify-center items-center gap-5 bg-linear-to-bl from-zinc-900 to-black">
 	<h1 class="font-bold text-center text-3xl mb-5">NoCrypt's Tauri Template</h1>
 	<form class="flex sm:flex-row flex-col gap-5" onsubmit={greet}>
 		<Input placeholder="Enter your name..." autofocus class="bg-transparent w-min" bind:value={name}/>

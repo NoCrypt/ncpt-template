@@ -1,5 +1,0 @@
-{
-    "identifier": "prevent-default",
-    "windows": ["*"],
-    "permissions": ["prevent-default:default"]
-  }

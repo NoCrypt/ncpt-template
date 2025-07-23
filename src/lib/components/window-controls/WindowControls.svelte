@@ -39,7 +39,7 @@
         <button
             onclick={() => appWindow?.minimize()}
             aria-label="minimize"
-            class="inline-flex items-center justify-center bg-sky-100 max-h-8 w-[46px] cursor-default rounded-none bg-transparent text-black/90 hover:bg-black/[.05] active:bg-black/[.03] dark:text-white dark:hover:bg-white/[.06] dark:active:bg-white/[.04] hover:transition-colors duration-200 ease-in-out"
+            class="inline-flex items-center justify-center max-h-8 w-[46px] cursor-default rounded-none bg-transparent text-black/90 hover:bg-black/5 active:bg-black/3 dark:text-white dark:hover:bg-white/6 dark:active:bg-white/4 hover:transition-colors duration-200 ease-in-out"
         >
             <svg
                 width="10"
@@ -58,7 +58,7 @@
         <button
             onclick={() => appWindow?.toggleMaximize()}
             aria-label="maximize"
-            class="inline-flex items-center justify-center bg-sky-100 max-h-8 w-[46px] cursor-default rounded-none bg-transparent text-black/90 hover:bg-black/[.05] active:bg-black/[.03] dark:text-white dark:hover:bg-white/[.06] dark:active:bg-white/[.04] hover:transition-colors duration-200 ease-in-out"
+            class="inline-flex items-center justify-center max-h-8 w-[46px] cursor-default rounded-none bg-transparent text-black/90 hover:bg-black/5 active:bg-black/3 dark:text-white dark:hover:bg-white/6 dark:active:bg-white/4 hover:transition-colors duration-200 ease-in-out"
         >
             {#if isMaximized}
                 <svg
@@ -93,7 +93,7 @@
         <button
             onclick={() => appWindow?.close()}
             aria-label="close"
-            class="inline-flex cursor-default items-center justify-center bg-sky-100 max-h-8 w-[46px] rounded-none bg-transparent text-black/90 hover:bg-[#c42b1c] hover:text-white active:bg-[#c42b1c]/90 dark:text-white hover:transition-colors duration-200 ease-in-out"
+            class="inline-flex cursor-default items-center justify-center max-h-8 w-[46px] rounded-none bg-transparent text-black/90 hover:bg-[#c42b1c] hover:text-white active:bg-[#c42b1c]/90 dark:text-white hover:transition-colors duration-200 ease-in-out"
         >
             <svg
                 width="10"
