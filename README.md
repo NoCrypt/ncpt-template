@@ -2,7 +2,7 @@
 
 Template for making tauri app feels like native. 
 
-![image](https://github.com/user-attachments/assets/805b80ca-0546-4459-a1f5-ebfa43fec2bb)
+<img width="942" height="546" alt="image (4)" src="https://github.com/user-attachments/assets/7b036b0b-0ff4-4f8e-a84d-888f5c77a52f" />
 
 Features:
 
