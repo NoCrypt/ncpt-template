@@ -3,17 +3,11 @@
 	import { WindowControls } from "$lib/components/window-controls";
 	import { NoContextMenu } from '$lib/components/no-context-menu';
 	import { SeamlessStartup } from '$lib/components/seamless-startup';
+	import { isTauri } from "@tauri-apps/api/core";
 	let { children } = $props();
-
-	let isTauri = $state(false);
-	$effect(() => {
-		if (import.meta.env.TAURI) {
-			isTauri = true;
-		}
-	});
 </script>
 
-{#if isTauri}
+{#if isTauri()}
 	<!-- Comment this if you dont want to disable context menu -->
 	<NoContextMenu/>
 

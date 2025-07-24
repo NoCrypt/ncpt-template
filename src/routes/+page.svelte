@@ -3,12 +3,13 @@
 	import { Button } from "$lib/components/ui/button";
 	import { invoke } from "@tauri-apps/api/core";
     import { fly } from "svelte/transition";
+	import { isTauri } from "@tauri-apps/api/core";
 
 	let name = $state("");
 	let greetMsg = $state("");
 	async function greet(event: Event) {
 		greetMsg = "";
-		greetMsg = import.meta.env.TAURI ? await invoke("greet", { name }) : await Promise.resolve(`Hello ${name}, this is a non-tauri environment!`);
+		greetMsg = isTauri() ? await invoke("greet", { name }) : await Promise.resolve(`Hello ${name}, this is a non-tauri environment!`);
 	}
 </script>
 
