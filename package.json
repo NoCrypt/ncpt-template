@@ -17,7 +17,7 @@
     "@tauri-apps/plugin-opener": "^2"
   },
   "devDependencies": {
-    "@lucide/svelte": "^0.525.0",
+    "@lucide/svelte": "^0.541.0",
     "@sveltejs/adapter-static": "^3.0.6",
     "@sveltejs/kit": "^2.9.0",
     "@sveltejs/vite-plugin-svelte": "^6.1.0",
