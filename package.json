@@ -14,7 +14,8 @@
   "license": "MIT",
   "dependencies": {
     "@tauri-apps/api": "^2",
-    "@tauri-apps/plugin-opener": "^2"
+    "@tauri-apps/plugin-opener": "^2",
+    "@tauri-apps/plugin-positioner": "~2"
   },
   "devDependencies": {
     "@lucide/svelte": "^0.525.0",

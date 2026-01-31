@@ -13,14 +13,16 @@
     "windows": [
       {
         "title": "ncpt-template",
-        "width": 690,
-        "height": 400,
+        "width": 450,
+        "height": 600,
         "decorations": false,
         "visible": false,
-        "minWidth": 270,
-        "minHeight": 350,
-        "center": true,
-        "backgroundColor": "#000"
+        "resizable": false,
+        "preventOverflow": true,
+        "minimizable": false,
+        "maximizable": false,
+        "backgroundColor": "#000",
+        "skipTaskbar": true
       }
     ],
     "security": {
